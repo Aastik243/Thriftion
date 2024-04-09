@@ -1,0 +1,551 @@
+
+ 
+
+*{
+    font-family:'Ubuntu', sans-serif;
+   
+  
+}
+
+ .logo{
+    width:300px;
+    padding-left:50px;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+    
+    font-weight: 700;
+    font-size: 1.3em;
+    transition:0.3s;
+   
+}
+
+.active a{
+    color:#EEE7DA;
+    border-bottom: 1px solid #EEE7DA;
+}
+
+li a:hover{
+    color:#EEE7DA;
+    border-bottom: 1px solid #EEE7DA;
+}
+    
+
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    height:13vh;
+    background-color: #88AB8E;
+    align-content:center;
+    
+    
+}
+
+.headers{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    gap:40px;
+    padding-right:50px;
+    padding-top:20px;
+}
+
+.hero{
+    background-color: #EEE7DA;
+    height:87vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 75px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: #00A9FF;
+
+
+}
+
+.jordans{
+    height:500px;
+}
+h3{
+    
+    font-size: 1.5em;
+    font-weight:500;
+}
+h2{
+    
+    font-size:2.5em;
+    font-weight:600;
+}
+h1{
+    
+    font-size:3.5em;
+    font-weight:800;
+}
+
+p{
+    color:#89CFF3;
+    font-size:1.2em;
+}
+
+.feat{
+    padding-top: 40px;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.feat1{
+    text-align:center;
+}
+
+
+
+.products{
+    display:flex;
+    justify-content : space-evenly;
+    flex-wrap:wrap;
+    padding: 0px 80px;
+    gap:50px;
+    
+    
+}
+
+.shoecloth{
+    width:300px;
+}
+
+.itempiece{
+    padding: 10px;
+    border-radius: 5%;
+    border:solid 2px rgba(3, 67, 44, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.itempiece:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.572)
+};
+
+
+
+span{
+    font-size:15px;
+    font-weight:400;
+}
+
+h4{
+    font-size:20px;
+    font-weight: 600;
+}
+
+.cartprice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    display:flex;
+    justify-content:space-between;
+    padding: 60px 80px;
+
+}
+.crazy{
+    width:600px;
+    height:500px;
+    background-size:cover;
+    background-image: url("./banners/s3.jpg");  
+    padding-left: 40px;
+    padding-top:250px;
+    border-radius: 8%;
+}
+
+.crazy h3{
+    color: black;
+    font-size:2.5em;
+    font-weight: 600;
+
+}
+
+.crazy h4{
+    color:black;
+    font-weight: 750;
+
+}
+
+.crazy button{
+    transition:0.2s;
+    font-size:13px;
+    padding:10px 13px;
+    background-color:transparent;
+    border: 1px solid;
+    outline:none;
+}
+
+.crazy button:hover{
+    background-color:#88AB8E;
+}
+
+
+
+.shop h3{
+    color: black;
+    font-size:2.5em;
+    font-weight: 600;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 100%;
+
+}
+
+.shop h4{
+    color:black;
+    font-weight: 550;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 10%;
+}
+
+.shop button{
+    transition:0.2s;
+    font-size:13px;
+    padding:10px 13px;
+    background-color:transparent;
+    border: 1px solid;
+    outline:none;
+}
+
+.shop button:hover{
+    background-color:#88AB8E;
+}
+
+.shop{
+    width:600px;
+    height:500px;
+    background-size: cover;
+    background-image: url("./banners/m1.jpg");  
+    text-align: center;
+    padding-top:60px;
+    border-radius: 8%;
+    
+
+}
+
+
+
+
+
+
+.headerc{
+    background-color:#88AB8E;
+    height:200px;
+    background-size:cover;
+    text-align: center;
+    width:100%;
+    padding-top:60px;
+   
+}
+
+
+li{
+    font-family:'Ubuntu', sans-serif;
+
+}
+
+
+.mapdiv{
+    display: flex;
+    justify-content: space-between;
+    padding:80px 50px;
+}
+
+
+
+.details h3{
+    font-size: 2.5em;
+    font-weight:700;
+}
+
+.form-details{
+    padding: 70px ;
+    text-align:center;
+    margin: 0px 10%;
+    
+}
+form{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    border: 1px solid green;
+    padding: 30px;
+   
+}
+
+form button{
+    width: fit-content;
+    padding:10px 15px;
+
+    background-color:lightgreen;
+    transition:0.2s;
+    
+}
+
+form button:hover{
+    background-color:green;
+}
+
+
+form h2{
+    font-size:2em;
+    font-weight:800
+}
+form input,
+form textarea{
+    margin-bottom: 20px;
+    padding: 12px 15px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 20px;
+    gap: 30px;
+}
+
+.aboutus p{
+    color:black;
+    font-size:16px;
+}
+
+.aboutus h2{
+    text-align: center;
+}
+
+
+
+
+/* Sell */
+.changepage{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.changepage button{
+    padding: 8px 15px;
+    background-color:lightgreen;
+    font-weight:600;
+    font-size:16px;
+    transition:0.2s;
+
+}
+.changepage button:hover{
+    background-color: green;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    background-color: #88AB8E;
+    padding:50px 100px;
+}
+
+.footer div h3{
+    font-weight:700;
+    text-align:center;
+    font-size:1.5em;
+}
+
+.footer div ul li a{
+    font-weight:500;
+    font-size:1.1em;
+}
+
+.footer div input{
+    padding:5px 10px;
+    width: 100%;
+}
+.footer div button{
+    background-color:lightgreen;
+    margin-top:10px;
+    border: 1px solid darkgreen;
+    padding: 2px 20px;
+}
+.footer div button:hover{
+    background-color:green;
+    margin-top:10px;
+    border: 1px solid darkgreen;
+    padding: 2px 20px;
+}
+
+.footer2{
+    background-color: #88AB8E;
+    color:black;
+    text-align:center;
+    padding-bottom:100px;
+    font-weight:800;
+    font-size:1em;
+}
+
+.changepage button a{
+    text-decoration: none;
+    color:black;
+}
+
+.single{
+    display:flex;
+    padding :50px;
+    justify-content: space-between;
+    gap: 85px;
+}
+
+.single1 p{
+    color:black;
+    font-size:1em;
+}
+.single1 h5{
+    font-weight: 100;
+}
+
+.single1 h3{
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.single1 input{
+    width:50px;
+
+}
+
+.single1 button{
+    background-color:lightgreen;
+    margin-top:10px;
+    border: 1px solid darkgreen;
+    padding: 2px 20px;
+    margin-left:20px;
+}
+.single1 button:hover{
+    background-color:green;
+    margin-top:10px;
+    border: 1px solid darkgreen;
+    padding: 2px 20px;
+}
+
+
+.like h2{
+    text-align:center;
+    padding-bottom:50px;
+}
+
+.like{
+    padding:60px 0px;
+}
+
+.featured{
+    padding-bottom:50px;
+}
+
+/*Cart*/
+
+.cart{
+    padding:80px;
+}
+
+.cart table{
+    border-collapse: collapse;
+    width:100%;
+    table-layout:fixed;
+    white-space:nowrap;
+}
+
+.cart table tbody tr td img{
+    width: 80px;
+}
+
+.cart table thead tr td{
+    font-weight:700;
+    font-size:1.5em;
+}
+
+.cart table thead{
+    border: 1px solid  #88AB8E;
+    border-left:none;
+    border-right: none;
+}
+
+.cart table td:nth-child(1){
+width:80px;
+}
+.cart table td:nth-child(2){
+    text-align:center;
+}
+.cart table td:nth-child(3){
+    text-align:center;
+
+}
+.cart table td:nth-child(4){
+    text-align:center;
+
+}
+.cart table td:nth-child(5){
+    text-align:center;
+
+}
+
+.cart table tbody tr td input{
+    width:100px;
+}
+
+.cart table thead tr td{
+    margin-bottom:50px;
+    padding:20px 0px;
+}
+
+
+.totalcart td{
+    font-weight:700;
+}
+
+.checkout{
+    align-self:center;
+    border:1px solid #88AB8E;
+    margin-left:30%;
+    width:40%;
+    padding: 40px;
+    margin-bottom:60px;
+}
+.checkout h2{
+    font-size:1.5em;
+    text-align:center;
+    padding-bottom:30px;
+}
+.checkout table{
+    text-align:center;
+    border-collapse: collapse;
+    width:100%;
+    table-layout:fixed;
+    white-space:nowrap;
+}
+
+.checkout table tr td{
+    border:1px solid #88AB8E;
+    padding:12px;
+}
+.checkout button{
+    background-color:lightgreen;
+    margin-top:10px;
+    border: 1px solid darkgreen;
+    padding: 2px 20px;
+    
+}
+.checkout button:hover{
+    background-color:green;
+    margin-top:10px;
+    border: 1px solid darkgreen;
+    padding: 2px 20px;
+}
